@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[16]:
+# In[18]:
 
 
 import streamlit as st
@@ -9,7 +9,7 @@ import cv2
 import numpy as np
 from PIL import Image
 from tensorflow.python import keras
-from keras.layers import Dense, Flatten, Conv2D, MaxPooling2D
+from tensorflow.python.keras.layers import Dense, Flatten, Conv2D, MaxPooling2D
 
 
 # In[17]:
