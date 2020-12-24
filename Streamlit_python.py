@@ -1,20 +1,20 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[11]:
 
 
 import streamlit as st
 import cv2
 import numpy as np
 from PIL import Image
-from tensorflow.keras.models import load_model
+from tensorflow.python import keras
 
 
-# In[2]:
+# In[12]:
 
 
-model = load_model('diab_retin_1.4.h5')
+model = keras.models.load_model('diab_retin_1.4.h5')
 
 
 # In[3]:
