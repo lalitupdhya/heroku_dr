@@ -3,3 +3,4 @@ streamlit==0.73.1
 tensorflow==1.4.0
 numpy==1.18.3
 Pillow==8.0.1
+h5py<3.0.0
