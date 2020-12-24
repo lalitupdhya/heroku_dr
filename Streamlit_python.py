@@ -1,17 +1,18 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[11]:
+# In[16]:
 
 
 import streamlit as st
 import cv2
 import numpy as np
 from PIL import Image
+from tensorflow.keras.layers import Dense, Flatten, Conv2D, MaxPooling2D
 from tensorflow.python import keras
 
 
-# In[12]:
+# In[17]:
 
 
 model = keras.models.load_model('diab_retin_1.4.h5')
