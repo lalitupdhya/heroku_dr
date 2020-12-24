@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[23]:
+# In[1]:
 
 
 import streamlit as st
@@ -11,25 +11,25 @@ from PIL import Image
 from tensorflow.keras.models import load_model
 
 
-# In[24]:
+# In[2]:
 
 
-model = load_model('diab_retin.h5')
+model = load_model('diab_retin_1.4.h5')
 
 
-# In[25]:
+# In[3]:
 
 
 about = 'Diabetic retinopathy is caused by damage to the blood vessels in the tissue at the back of the eye (retina).        Poorly controlled blood sugar is a risk factor.Early symptoms include floaters, blurriness, dark areas of vision and        difficulty perceiving colours. Blindness can occur. Mild cases may be treated with careful diabetes management.        Advanced cases may require laser treatment or surgery. Diagnosis of this disease can be done with the fundus image of an eye.'
 
 
-# In[26]:
+# In[4]:
 
 
 sd = st.sidebar.radio('NAVIGATION',['Home','Prediction'])
 
 
-# In[27]:
+# In[5]:
 
 
 if sd=='Prediction':
